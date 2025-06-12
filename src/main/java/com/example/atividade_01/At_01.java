@@ -21,6 +21,8 @@ public class At_01 {
             System.out.println("Conceito: D");
         } else if(nota < 60){
             System.out.println("Conceito: F");
+        }else {
+            System.out.println("Nota inválida");
         }
     }
 

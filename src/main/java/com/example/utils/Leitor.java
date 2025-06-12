@@ -8,4 +8,9 @@ public class Leitor {
         System.out.println(msg);
         return scanner.nextInt();
     }
+
+    public static double lerDouble(String msg){
+        System.out.println(msg);
+        return scanner.nextDouble();
+    }
 }
